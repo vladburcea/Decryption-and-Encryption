@@ -1,0 +1,18 @@
+The code is thoroughly commented so that every step of the implementation is understood.
+
+Besides the predefined functions found in the template and needed to resolve the assignment I've implemented 3 functions that helped me while figuring the solution.
+
+char* parse_input(char* string)
+	- receives a single argument: a pointer to a string that contains both the encoded message and the key
+	(separated by 0x00)
+	- the pointer to the key is returned in eax
+
+int get_length(char* string)
+	- receives a single argument: a pointer to a string finished with a null terminator 
+	- return the length of the string in eax
+
+void hex_to_ binary(char* character)
+	- receives a character (in hexa) and changes it to the equivalent value, but in binary
+	- the change is done in place. This function does not return anything
+
+The rest of the code can be easily understood from my comments.
